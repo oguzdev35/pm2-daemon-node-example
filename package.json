@@ -1,0 +1,14 @@
+{
+  "name": "pm2-keylogger",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "dogusdicle <dogus.dicle@maksisoft.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "./node_modules/pm2/bin/pm2 start app.js",
+    "monitor": "./node_modules/pm2/bin/pm2 monit"
+  },
+  "dependencies": {
+    "pm2": "^4.4.0"
+  }
+}
